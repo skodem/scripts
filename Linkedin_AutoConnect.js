@@ -7,7 +7,7 @@ if (loc[1].toLowerCase() === 'mynetwork' && loc[2].toLowerCase() === '') {
     var i = 0;
     var j = 0;
     var max = 1500; // The maximum allowable number of profile cards on one page, if you have a weak PC, you can REDUCE this number so that the script stops before the page starts to slow down from overload.
-    var repSec = 0.5; // The speed of checking one profile in seconds, you can INCREAE this value a little if you have a low Internet speed.
+    var repSec = 0.5; // The speed of checking one profile in seconds, you can INCREASE this value a little if you have a low Internet speed.
     document.querySelector("ul.artdeco-card.mb4").style.display = "none";
     window.scrollTo(0, document.body.scrollHeight);
     var searchPers = setInterval(function() {
