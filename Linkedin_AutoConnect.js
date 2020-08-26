@@ -1,4 +1,4 @@
-// AutoInvite to HR/Recruiters from "People You May Know" for Linkedin.
+// AutoConnect to HR/Recruiters from "People You May Know" for Linkedin.
 // by Fuad Shukurov (https://linkedin.com/in/fuad-shukurov)
 
 var loc = location.pathname.split('/');
