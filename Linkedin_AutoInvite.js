@@ -3,6 +3,7 @@
 
 var loc = location.pathname.split('/');
 if (loc[1].toLowerCase() === 'mynetwork' && loc[2].toLowerCase() === '') {
+    console.log('The script is looking for the first suitable employees, please wait...');
     var i = 0;
     var j = 0;
     var max = 1500; // The maximum allowable number of profile cards on one page, if you have a weak PC, you can REDUCE this number so that the script stops before the page starts to slow down from overload.
@@ -40,6 +41,7 @@ if (loc[1].toLowerCase() === 'mynetwork' && loc[2].toLowerCase() === '') {
             window.scrollTo(0, document.body.scrollHeight);
         }
     }, repSec*1000);
+    }, repSec * 1000);
 } else {
     console.log('You are on the WRONG page. The script works only on the page: https://linkedin.com/mynetwork/');
 }
