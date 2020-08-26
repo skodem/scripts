@@ -41,7 +41,6 @@ if (loc[1].toLowerCase() === 'mynetwork' && loc[2].toLowerCase() === '') {
         } else {
             window.scrollTo(0, document.body.scrollHeight);
         }
-    }, repSec*1000);
     }, repSec * 1000);
 } else {
     console.log('You are on the WRONG page. The script works only on the page: https://linkedin.com/mynetwork/');
